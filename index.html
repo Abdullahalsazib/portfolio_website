@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Personal Portfolio Website | Abdullah</title>
+  
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://kit.fontawesome.com/ae41daf62d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+ <div id="header">
+  <div class="container">
+     <nav>
+       <img src="./Abdullah.logo.png" class="logo">
+       
+       <ul id="sidemenu">
+         <li><a href="#header">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#contact">Contact</a></li>
+         <i ></i>
+         <i onclick="closemenu()" class="fas fa-solid fa-xmark"></i>
+       </ul>
+       <i onclick="openmenu()" class="fas fa-solid fa-bars"></i>
+       
+     </nav>
+     <div class="header-text">
+       <p>WEB DESIGNER <span>&</span> DEVELOPER</p>
+       <h1>Hi, I'm <span>Abdullah</span> <br> From Bangladesh</h1>
+     </div>
+  </div>
+   
+ </div>
+<!--   -----ABOUT------ -->
+  
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./My photo.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me.</h1>
+          <p>Hi. My name is Abdullah Al Sazib. I'm a web designer and developer. my age is 17 year's old, I'm a Student of Gaganpur High School, and I'm from Bangladesh.</p>
+          <div class="tab-titles">
+            
+  <p class="tab-links active-link" 
+       onclick="openTab('skills')">Skills</p>
+  <p class="tab-links"
+       onclick="openTab('experience')">Experience</p>
+  <p class="tab-links" 
+       onclick="openTab('education')">Education</p>
+          </div>
+          
+          
+          <div class="tab-contants active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Fontend Developer</li>
+              <li><span>Web Design</span><br>Full stack Designer</li>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Skill-Tool's</span><br>HTML5, CSS3, JAVASCRIPT, Bootstrap5</li>
+              <li><span>Cyber security-Tool's</span><br>Sqlmap, Nmap, Social Engineering Tool's, Kali-Linux, Parrot-OS, etc..</li>
+            </ul>
+          </div>
+          
+          <div class="tab-contants" id="experience">
+            <ul>
+              <li><span>2021 - Current</span><br>UI/UX Design</li>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>App Development</span><br>App interfaces</li>
+            </ul>
+          </div>
+          
+           <div class="tab-contants" id="education">
+             <ul>
+               <li><span>2022</span><br>GAGANPUR HIGH SCHOOL</li>
+             </ul>
+           </div>
+          
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<!--   ----------services------- -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      
+      
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Web design refers to.the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+        <a href="https://www.interaction-design.org/literature/topics/web-design">Learn More..</a>
+      </div>
+      
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Web Development</h2>
+          <p>Web programming, also known as web development, is the creation of dynamic web applications. Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon. The good news is that learning web development is not that hard!</p>
+          <a href="https://www.codeconquest.com/what-is-coding/web-programming/">Learn More..</a>
+        </div>
+        
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>A user experience (UX) designer works on a team to create products that provide meaningful and enjoyable experiences for users. They are concerned with the entire process of product design, from branding to design to useability. UI (user interface) designers build interfaces in software or other computerized devices.</p>
+            <a href="https://flatironschool.com/blog/what-is-ux-ui-design/">Learn More..</a>
+          </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+<!------portfolio------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="./work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>Behance is the world's largest creative network for showcasing and discovering ... application. flat design. figma. mobile design. web design. uiux. media.</p>
+          <a href="https://www.behance.net/search/projects/?search=Social%20app&sort=recommended&time=month"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+       <div class="work">
+         <img src="./work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>Spotify. Spotify isn't just one of the most popular subscription music apps, it's also one of the best ways to stream music for free. ...</p>
+            <a href="https://www.spotify.com/bd-en/mini/?utm_source=bd-en_brand_contextual_text&utm_medium=paidsearch&utm_campaign=alwayson_sas_bd_premiumbusiness_core_brand+contextual-mobile+text+exact+bd-en+google&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9an6KlDU1OS9p_dI9bDdHg84I9htiheAay_DDv-ggSaVqYZ6Y-G5DTwaAjOYEALw_wcB&gclsrc=aw.ds"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+       </div>
+        <div class="work">
+          <img src="./work-3.png">
+           <div class="layer">
+             <h3>Online Shooping App</h3>
+             <p>eBay. If you're a frugal shopper, you might just find a slightly-used signature handbag on eBay. ...</p>
+             <a href="https://www.ebay.com/?mkevt=1&siteid=1&mkcid=2&mkrid=711-153320-877174-6&source_name=google&mktype=brand&campaignid=16573687872&groupid=135989160713&crlp=587893164697&keyword=ebay&targeted=kwd-11021220&MT_ID=e&adpos=&device=m&googleloc=9069466&geo_id=20&gclid=Cj0KCQjwl92XBhC7ARIsAHLl9anSmwWUnZyYyqiCzwp6jDnrxUTK54XFFvzqKTcYneckNm0AGa0Lk0caAit5EALw_wcB"><i class="fa-solid fa-up-right-from-square"></i></a>
+           </div>
+        </div>
+    </div>
+    <a href="https://www.linkedin.com/in/abdullah-al-sazib-a79102244" class="btn">See more..</a>
+  </div>
+</div>
+
+<!-- --------contact----- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i> abdullahalsazib281@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>+8801797934827</p>
+        <div class="social-icon">
+          <a href="https://www.facebook.com/abdullahalsazib22"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/abdullah-al-sazib-a79102244"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/abdullahalsaziboffical/"><i class="fa-solid fa-users-between-lines"></i></a>
+          
+        </div>
+       <a href="./Profile.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your E-mail" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button class="btn btn2" type="submit">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; <p class="copyYear"></p> <i class="fas fa-heart"></i> Made With By Abdullah..</p>
+  </div>
+  
+</div>
+<script>
+  let copyYear  = document.querySelector(".copyYear");
+  
+  let date = new Date().getFullYear();
+  
+   copyYear.textContent = date;
+  console.log(date)
+</script>
+
+
+
+  
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contants");
+    
+    function openTab(tabname){
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add('active-tab')
+    }
+    
+  </script>
+  
+  
+  <script>
+   var sidemeu = document.getElementById('sidemenu');
+   
+   function openmenu(){
+     sidemeu.style.right = '0';
+   }
+   function closemenu() {
+     sidemeu.style.right = '-200px';
+   }
+    
+    
+    
+    
+
+
+  </script>
+  
+</body>
+</html>
